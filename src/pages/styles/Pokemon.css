@@ -233,4 +233,21 @@ body {
         width: 300px;
     }
     
+    .pokemon__movements-list-item {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        padding: 18px 8px;
+        gap: 5px;
+        width: 90px;
+        height: 6px;
+        background: #E5E5E5;
+        border-radius: 50px;
+        font-size: 11px;
+        border: 1px solid #9F9F9F;
+    }
+
+
+
 }
