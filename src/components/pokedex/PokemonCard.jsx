@@ -29,7 +29,9 @@ const PokemonCard = ({ pokemonurl }) => {
                 <div  className='pokemonCard__img'>
                     <img src={pokemon?.sprites.other.home.front_default} alt="" />
                 </div>
+                
                 <h3 className='pokemonCard__name'>{pokemon?.name}</h3>
+                
                 <h4  className='pokemonCard__types'>{pokemon?.types[0].type.name} {pokemon?.types[1] && `/ ${pokemon?.types[1].type.name}`}</h4>
                 <h6  className='pokemonCard__type-subtitle'>Type</h6>
                 <hr className='pokemonCard__line' />

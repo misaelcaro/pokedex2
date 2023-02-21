@@ -121,9 +121,11 @@ useEffect(() => {
 
   return (
     <main className='pokedex__main'>
-      <p> <span className='pokedex__nameTrainer'>Welcome {nameTrainer}</span>,Here you can search for your favorite pokemon</p>
+    <div className='pokedex__search'>
 
-      <form onSubmit={handleSubmit}>
+      <p> <span className='pokedex__nameTrainer'>Welcome {nameTrainer}</span>,  Here you can search for your favorite pokemon</p>
+
+      <form className="pokedex__form"onSubmit={handleSubmit}>
       
         <div className='pokedex__input'>
           <input type="text" id="pokemonName" placeholder="search your pokemon" />
@@ -131,11 +133,13 @@ useEffect(() => {
         </div>
         <select className='pokedex__selector' onChange={handleChangeSelect}>
           <option value="">All</option>
+          
           {
             types.map(type => <option key={type.url}>{type.name}</option>)
           }
         </select>
       </form>
+    </div>
 
       <section className='pokedex__content'>
         {
@@ -148,13 +152,13 @@ useEffect(() => {
         <ul>
 
          
-          <li onClick={() => setCurrentPage(1)}>First</li>
+          <li className='pokedex__pagination-li' onClick={() => setCurrentPage(1)}>First</li>
           <li onClick={handlePreviusPage}>Prev</li>
           {
             pagesInBlock.map(page => <li onClick={() => setCurrentPage(page)} key={page}>{page}</li>)
           }
           <li onClick={handleNextPage}>next</li>
-          <li onClick={() => setCurrentPage(lastPage)}>last</li>
+          <li className='pokedex__pagination-li' onClick={() => setCurrentPage(lastPage)}>last</li>
 
         </ul>
 

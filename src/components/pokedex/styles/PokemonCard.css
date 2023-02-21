@@ -1,3 +1,4 @@
+
 .pokemonCard {
     width: min(320px, 100%);
     border: 10px solid ;
@@ -5,6 +6,7 @@
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(5, 5, 5, 0.6);
 }
 
 
@@ -47,7 +49,7 @@ top: -10px;
 
 .pokemonCard__type-subtitle {
     text-align: center;
-    color: gray;
+    color: rgb(0, 0, 0);
     font-size: 15pk;
 
 }
@@ -73,7 +75,7 @@ top: -10px;
 
 .pokemonCard__stat-name {
     text-transform: uppercase;
-    color: gray;
+    color: rgb(0, 0, 0);
     font-weight: normal;
 
 }
@@ -90,6 +92,7 @@ top: -10px;
 .border-normal {
     border: 10px solid #735259;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-normal:hover {
   border: 10px solid #01fabc;
@@ -98,6 +101,7 @@ top: -10px;
 .border-fighting {
     border: 10px solid #96402A;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-fighting:hover {
   border: 10px solid #01fabc;
@@ -105,13 +109,14 @@ top: -10px;
 .border-flying {
     border: 10px solid #beb14c;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-flying:hover {
   border: 10px solid #01fabc;
 }
 .border-poison {
     border: 10px solid #5B3184;
-    transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-poison:hover {
   border: 10px solid #01fabc;
@@ -119,6 +124,7 @@ top: -10px;
 .border-ground {
     border: 10px solid #654008;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-ground:hover {
   border: 10px solid #01fabc;
@@ -126,13 +132,15 @@ top: -10px;
 .border-rock {
     border: 10px solid #7E7E7E;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-rock:hover {
   border: 10px solid #01fabc;
 }
 .border-bug {
-    border: 10px solid #E52D2D;
+    border: 10px solid #3c8846;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-bug:hover {
   border: 10px solid #01fabc;
@@ -140,6 +148,7 @@ top: -10px;
 .border-ghost {
     border: 10px solid #323569;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-ghost:hover {
   border: 10px solid #01fabc;
@@ -147,6 +156,7 @@ top: -10px;
 .border-steel {
     border: 10px solid #5E736C;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-steel:hover {
   border: 10px solid #01fabc;
@@ -154,6 +164,7 @@ top: -10px;
 .border-fire {
     border: 10px solid #F96D6F;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-fire:hover {
   border: 10px solid #01fabc;
@@ -161,6 +172,7 @@ top: -10px;
 .border-water {
     border: 10px solid #133258;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-water:hover {
   border: 10px solid #01fabc;
@@ -168,20 +180,23 @@ top: -10px;
 .border-grass {
     border: 10px solid #7EC6C5;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-grass:hover {
   border: 10px solid #01fabc;
 }
 .border-electric {
-    border: 10px solid #0C1395;
+    border: 10px solid #93a818;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.border-electricl:hover {
+.border-electric:hover {
   border: 10px solid #01fabc;
 }
 .border-psychic {
     border: 10px solid #E52D2D;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-psychic:hover {
   border: 10px solid #01fabc;
@@ -189,6 +204,7 @@ top: -10px;
 .border-ice {
     border: 10px solid #6FBEDF;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-ice:hover {
   border: 10px solid #01fabc;
@@ -196,6 +212,7 @@ top: -10px;
 .border-dragon {
     border: 10px solid #478A93;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-dragon:hover {
   border: 10px solid #01fabc;
@@ -203,6 +220,7 @@ top: -10px;
 .border-dark {
     border: 10px solid #030706;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-dark:hover {
   border: 10px solid #01fabc;
@@ -210,6 +228,7 @@ top: -10px;
 .border-fairy {
     border: 10px solid #971B45;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-fairy:hover {
   border: 10px solid #01fabc;
@@ -217,6 +236,7 @@ top: -10px;
 .border-unknown {
     border: 10px solid #696767;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-unknown:hover {
   border: 10px solid #01fabc;
@@ -224,6 +244,7 @@ top: -10px;
 .border-shadow {
     border: 10px solid #6c31a3;
     transition-duration: 400ms;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .border-shadow:hover {
   border: 10px solid #01fabc;
@@ -234,49 +255,49 @@ top: -10px;
 /*background linear gradient*/
 
 .bg-lg-normal {
-    background: linear-gradient(180deg, #735259, #000);
+    background: linear-gradient(180deg, #b3a5a5, #000);
   }
   .bg-lg-fighting {
-    background: linear-gradient(180deg, #96402A, #000);
+    background: linear-gradient(180deg, #b6492d, #000);
   }
   .bg-lg-flying {
-    background: linear-gradient(180deg, #beb14c, #000);
+    background: linear-gradient(180deg, #c2b23e, #000);
   }
   .bg-lg-poison {
-    background: linear-gradient(180deg, #5B3184, #000);
+    background: linear-gradient(180deg, #7738b6, #000);
   }
   .bg-lg-ground {
-    background: linear-gradient(180deg, #654008, #000);
+    background: linear-gradient(180deg, #85540b, #000);
   }
   .bg-lg-rock {
-    background: linear-gradient(180deg, #7E7E7E, #000);
+    background: linear-gradient(180deg, #8d8282, #000);
   }
   .bg-lg-bug {
-    background: linear-gradient(180deg, #E52D2D, #000);
+    background: linear-gradient(180deg, #3c8846, #000);
   }
   .bg-lg-ghost {
-    background: linear-gradient(180deg, #323569, #000);
+    background: linear-gradient(180deg, #5559a1, #000);
   }
   .bg-lg-steel {
     background: linear-gradient(180deg, #5E736C, #000);
   }
   .bg-lg-fire {
-    background: linear-gradient(180deg, #F96D6F, #000);
+    background: linear-gradient(180deg, #d63d40, #000);
   }
   .bg-lg-water {
-    background: linear-gradient(180deg, #133258, #000);
+    background: linear-gradient(180deg, #6999d4, #000);
   }
   .bg-lg-grass {
-    background: linear-gradient(180deg, #7EC6C5, #000);
+    background: linear-gradient(180deg, #459c9b, #000);
   }
   .bg-lg-electric {
-    background: linear-gradient(180deg, #0C1395, #000);
+    background: linear-gradient(180deg, #cff304, #000);
   }
   .bg-lg-psychic {
     background: linear-gradient(180deg, #E52D2D, #000);
   }
   .bg-lg-ice {
-    background: linear-gradient(180deg, #6FBEDF, #000);
+    background: linear-gradient(180deg, #69b4d4, #000);
   }
   .bg-lg-dragon {
     background: linear-gradient(180deg, #478A93, #000);

@@ -20,7 +20,8 @@ const Header = () => {
             </div>
             <div className='header__black'>
                 <div className='header__pokeball'>
-                    <button className='header__btn' onClick={handleClickLogOut}><i className='bx bxs-door-open'></i></button>
+                    <button  className='header__btn' onClick={handleClickLogOut}><i className='bx bxs-door-open'></i></button>
+                    
                 </div>
             </div>
         </header>
