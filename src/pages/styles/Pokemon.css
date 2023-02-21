@@ -228,6 +228,18 @@ body {
     border: 1px solid #9F9F9F;
 }
 
+
+
+a{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: -250px;
+}
+a:hover{
+    color: #dd1a1a;
+}
+
 @media (max-width: 500px){
     .pokemon__img:hover {
         width: 300px;

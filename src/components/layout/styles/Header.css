@@ -29,6 +29,8 @@
     border-radius: 50%;
 }
 
+
+
 .header__pokeball::after{
     content: "";
     width: 50px;
@@ -55,6 +57,11 @@
     font-size: 40px;
     cursor: pointer;
     transition: background 200ms ease;
+}
+.header__btn-exit{
+    font-size: 25px;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 .header__btn:hover{

@@ -30,7 +30,9 @@ const Pokemon = () => {
 
   return (
     <main >
+        <a href="https://myreactpokedex.netlify.app/pokedex"><i className='bx bx-arrow-back' ></i></a>
       <section className='pokemon'>
+       
       <section className={`pokemon__box bg-lg-${pokemon?.types[0].type.name}`}>
         <section>
           <div className='pokemon__img'>

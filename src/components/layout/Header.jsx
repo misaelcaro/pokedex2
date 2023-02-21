@@ -15,14 +15,17 @@ const Header = () => {
         <header className='header'>
             <div className='header__red'>
                 <div className='header__img'>
+                    
                     <img src="/images/pokedex.png" alt="" />
+                    
                 </div>
             </div>
             <div className='header__black'>
                 <div className='header__pokeball'>
-                    <button  className='header__btn' onClick={handleClickLogOut}><i className='bx bxs-door-open'></i></button>
+                    <button  className='header__btn' onClick={handleClickLogOut}><span className='header__btn-exit'>Exit</span></button>
                     
                 </div>
+               
             </div>
         </header>
     )
