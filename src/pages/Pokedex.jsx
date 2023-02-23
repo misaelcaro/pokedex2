@@ -155,7 +155,7 @@ useEffect(() => {
           <li className='pokedex__pagination-li' onClick={() => setCurrentPage(1)}>First</li>
           <li onClick={handlePreviusPage}>Prev</li>
           {
-            pagesInBlock.map(page => <li onClick={() => setCurrentPage(page)} key={page}>{page}</li>)
+            pagesInBlock.map(page => <li  onClick={() => setCurrentPage(page)} key={page}>{page}</li>)
           }
           <li onClick={handleNextPage}>next</li>
           <li className='pokedex__pagination-li' onClick={() => setCurrentPage(lastPage)}>last</li>

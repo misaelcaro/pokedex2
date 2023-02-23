@@ -230,13 +230,13 @@ body {
 
 
 
-a{
+.bx{
     font-size: 3rem;
     color: rgb(255, 255, 255);
     position: absolute;
     margin-top: -250px;
 }
-a:hover{
+.bx:hover{
     color: #dd1a1a;
 }
 
