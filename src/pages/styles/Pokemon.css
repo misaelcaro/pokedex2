@@ -227,6 +227,10 @@ body {
     font-size: 12px;
     border: 1px solid #9F9F9F;
 }
+.pokemon__movements-list-item:hover{
+    background-color: darkgoldenrod;
+    color: white;
+}
 
 
 
@@ -259,7 +263,4 @@ body {
         font-size: 11px;
         border: 1px solid #9F9F9F;
     }
-
-
-
 }
